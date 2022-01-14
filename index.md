@@ -9,5 +9,9 @@
 
 
   Changes I'm making `offline` on my `desktop`
+
+  Links: 
+  
+  1. [LAB REPORT 1](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-1-week-2.md)
   
   
