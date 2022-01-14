@@ -51,7 +51,27 @@ Here are some commands to try:
 
 
 ## Step 4: *Moving Files with scp*
+ *A key step in working remotely is being able to copy files between computers.*
 
+ We'll be copying a file from our computer to a remote computer in this exercise by using a command called `scp`, which stands for secure copy.
+
+ 1. Create a file on your computer called `WhereAmI.java` with the following contents in it:
+     ```
+     class WhereAmI { 
+         public static void main(String[] args) {
+             System.out.println(System.getProperty("os.name"));
+             System.out.println(System.getProperty("user.name"));
+             System.out.println(System.getProperty("user.home"));
+              System.out.println(System.getProperty("user.dir"));
+            }
+        }
+    ```
+    2. In the terminal from the directory where `WhereAmI.java` was made, run the command using: (but with your username)
+    ``` scp WhereAmI.java cs15lwi22zakz@ieng6.ucsd.edu:~```
+    3. Enter your password!
+    Now, log into `ieng6` again using the `ssh` command and use `ls`.
+        > You should see something along these lines!
+        ![Image](scp.jpg)
 
 
 
