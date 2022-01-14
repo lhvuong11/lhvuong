@@ -6,5 +6,8 @@
   
   --- 
   ![Image](https://i0.wp.com/pbs.twimg.com/media/E2aDn5KXIAU337Z.jpg)
+
+
+  Changes I'm making `offline` on my `desktop`
   
   
