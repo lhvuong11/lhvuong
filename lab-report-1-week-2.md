@@ -114,6 +114,9 @@ Using `ssh` keys is a way to make logging in or running `scp` a little less tedi
     # back on client
     $ scp /\Users\Linda Vuong/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys 
     ```
+    [Hello this is Linda : I'm having a problem implementing this Step since I'm operating on Windows]
+
+    ![Image](problem.jpg)
 
 ## Step 6: *Optimizing Remote Running*
 Now you'll be using everything in this tutorial to make some local edits to `WhereAmI.java`, then copying it to the remote server and running it.
