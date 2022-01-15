@@ -4,7 +4,7 @@ Welcome to my (Linda Vuong's) GitHub website!
 
 Glad you chose to stay and look at my *somewhat interesting* web layout. Times have been rough lately with learning online, as well as the most recent COVID surge with a tremendous increase of cases. Hope you're all healthy and doing well! ᕙ(⇀‸↼‶)ᕗ
 
-  **DISCLAIMER!!! I cannot promise there will be super super A1 Wagyu quality content on here. Continue at your own risk!! ☆*:.｡.o(≧▽≦)o.｡.:*☆**
+  **DISCLAIMER!!! I cannot promise there will be super super A5 Wagyu quality content on here. Continue at your own risk!! ☆*:.｡.o(≧▽≦)o.｡.:*☆**
   
   --- 
   ![Image](https://i0.wp.com/pbs.twimg.com/media/E2aDn5KXIAU337Z.jpg)
