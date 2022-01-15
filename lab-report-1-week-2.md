@@ -11,7 +11,6 @@ This blog post will be a tutorial about how to log into your course-speical acco
 Go to [Visual Studio Code](https://code.visualstudio.com/) and download and install it on your device.
 
 > It should look something like this (may differ depending on system/ display settings).
-
 ![Image](vscode.jpg)
 
 
@@ -76,9 +75,45 @@ Here are some commands to try:
 
 
 ## Step 5: *Setting an SSH Key*
+Using `ssh` keys is a way to make logging in or running `scp` a little less tedious (by us not having to type in our password 10,000 times). 
 
-
-
+1. Run this to set up `ssh-keygen`, a program that creates a pair of files called the *public key* and *private key*
+    > Replace my name with yours!
+    ```
+    # on client (your computer)
+    $ ssh-keygen
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (C:\Users\Linda Vuong/.ssh/id_rsa): \Users\Linda Vuong/.ssh/id_rsa
+    Enter passphrase (empty for no passphrase): 
+    Enter same passphrase again: 
+    Your identification has been saved in \Users\Linda Vuong/.ssh/id_rsa.
+    Your public key has been saved in \Users\Linda Vuong/.ssh/id_rsa.pub.
+    The key fingerprint is:
+    SHA256:ay5ICgx/MrP2brsHxZ5R0xEiNBZ3VkDSzRWUEDTsppc linda vuong@DESKTOP-KTSE4VM
+    The key's randomart image is:
+    +---[RSA 3072]----+
+    |                 |
+    |       . . + .   |
+    |      . . B o .  |
+    |     . . B * +.. |
+    |      o S = *.B. |
+    |       = = O.*.*+|
+    |        + * *.BE+|
+    |           +.+.o |
+    |             ..  |
+    +----[SHA256]-----+
+    ```
+    2. Windows operators need to follow extra `ssh-add` steps: [ssh-add-steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+    3. To copy the public key to `.ssh`'s directory: (Make sure you're using your user!!)
+    ```
+    $ ssh cs15lwi22akz@ieng6.ucsd.edu
+    <Enter Password>
+    # now on server
+    $ mkdir .ssh
+    $ logout
+    # back on client
+    $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+    ```
 
 ## Step 6: *Optimizing Remote Running*
 
