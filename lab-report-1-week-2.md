@@ -105,15 +105,17 @@ Using `ssh` keys is a way to make logging in or running `scp` a little less tedi
     ```
     2. Windows operators need to follow extra `ssh-add` steps: [ssh-add-steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
     3. To copy the public key to `.ssh`'s directory: (Make sure you're using your user!!)
-    ```
+
+    ``` 
     $ ssh cs15lwi22akz@ieng6.ucsd.edu
-    <Enter Password>
+    Enter Password
     # now on server
     $ mkdir .ssh
     $ logout
     # back on client
-    $ scp /\Users\Linda Vuong/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys 
+    $ scp \Users\Linda Vuong/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys 
     ```
+    
     [Hello this is Linda : I'm having a problem implementing this Step since I'm operating on Windows]
 
     ![Image](problem.jpg)
