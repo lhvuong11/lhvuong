@@ -112,8 +112,20 @@ Using `ssh` keys is a way to make logging in or running `scp` a little less tedi
     $ mkdir .ssh
     $ logout
     # back on client
-    $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+    $ scp /\Users\Linda Vuong/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys 
     ```
 
 ## Step 6: *Optimizing Remote Running*
+Now you'll be using everything in this tutorial to make some local edits to `WhereAmI.java`, then copying it to the remote server and running it.
+
+- To directly run on the remote server: write commands in quotes at the end of an `ssh` command
+    > `ssh cs151wi22@ieng6.ucsd.edu "ls" `
+
+- Use semicolons to run multiple commands on the same line
+    > `sp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI" `
+
+--- 
+
+
+***THANKS FOR TUNING IN TO THIS TUTORIAL! HOPE TO SEE YOU SOON & STAY SAFE OUT THERE***
 
