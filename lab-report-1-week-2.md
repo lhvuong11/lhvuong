@@ -103,7 +103,7 @@ Using `ssh` keys is a way to make logging in or running `scp` a little less tedi
     |             ..  |
     +----[SHA256]-----+
     ```
-    2. Windows operators need to follow extra `ssh-add` steps: [ssh-add-steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+    2. Windows operators need to follow extra `ssh-add` steps: [ssh-add-steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) - Make sure you're running PowerShell Administrator for this part!
     3. To copy the public key to `.ssh`'s directory: (Make sure you're using your user!!)
 
     ``` 
@@ -116,11 +116,8 @@ Using `ssh` keys is a way to make logging in or running `scp` a little less tedi
     $ scp \Users\Linda Vuong/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys 
     ```
     
-    > This is what running `WhereAmI.java` looks like  needing to input a password.
-    ![Image](pass.png)
-
-    >This is what running `WhereAmI.java` looks like now that the public is saved to the `.ssh` directory! 
-    ![Image]( !!!! )
+    > This is what it should look like after saving the id_rsa.pub!
+    ![Image](rsa.png)
 
 ## Step 6: *Optimizing Remote Running*
 Now you'll be using everything in this tutorial to make some local edits to `WhereAmI.java`, then copying it to the remote server and running it.
@@ -130,6 +127,26 @@ Now you'll be using everything in this tutorial to make some local edits to `Whe
 
 - Use semicolons to run multiple commands on the same line
     > `sp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI" `
+
+- Use the up arrow on your keyboard to recall the last command that was a run
+
+
+    **My Experience // Trying to get the least keystrokes**
+
+    - Copy and paste was my best friend. Instead of typing out my username with 24 keystrokes, copy and pasting reduced it to about 5. It also saved me time by not making as many typos and so I don't have to look back at my user to make sure I typed it correctly.
+
+    - Having the id_rsa.pub key saved, saved a lot of time since I'm not worrying if I typed my password wrong especially since we can't even see what we're typing. It saved exactly 11 keystrokes (including the enter key).
+
+    - The fastest process I came up with was to implement the first hint. Without being already logged into the remote server, I was able to run `WhereAmI.java` with a few additions.
+    I ran:
+
+    ```
+    ssh cs15lwi22akz@ieng6.ucsd.edu "javac WhereAmI.java" 
+    ssh cs15lwi22akz@ieng6.ucsd.edu "java WhereAmI" 
+    ```
+    ![Image](whereami.jpg)
+
+    It saved me the additional keystrokes that comes with logging into the server and retyping `javac` and `java`. Plus my username was copied and pasted! So even less key strokes!
 
 --- 
 
