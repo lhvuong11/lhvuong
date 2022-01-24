@@ -116,11 +116,6 @@ Using `ssh` keys is a way to make logging in or running `scp` a little less tedi
     $ scp \Users\Linda Vuong/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys 
     ```
     
-    [Hello this is Linda : I'm having a problem implementing this Step since I'm operating on Windows]
-
-    ![Image](problem.jpg)
-
-
     > This is what running `WhereAmI.java` looks like  needing to input a password.
     ![Image](pass.png)
 
