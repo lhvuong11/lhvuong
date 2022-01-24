@@ -120,6 +120,13 @@ Using `ssh` keys is a way to make logging in or running `scp` a little less tedi
 
     ![Image](problem.jpg)
 
+
+    > This is what running `WhereAmI.java` looks like  needing to input a password.
+    ![Image](pass.png)
+
+    >This is what running `WhereAmI.java` looks like now that the public is saved to the `.ssh` directory! 
+    ![Image]( !!!! )
+
 ## Step 6: *Optimizing Remote Running*
 Now you'll be using everything in this tutorial to make some local edits to `WhereAmI.java`, then copying it to the remote server and running it.
 
