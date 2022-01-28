@@ -75,7 +75,21 @@ We deliberately removed the closing parentheses to see if it was a fail-inducing
 ![Image](4fail.png)
 >>Commit Message History
 
+- show a screenshot of the code change difference from github
+- link to the test file for a failure-inducing input that prompted you to make that change
+- show the symptom of that filure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
+- write 2-3 sentences describing the relationship between the bug, the symptom, and the filure-inducing input
 
+
+## Code Change 3 : *StringIndexOutOfBoundsException*
+> Apologies, I switched over to using my Mac so you'll be seeing `lindas-MacBook-Pro:markdown-parse lindavuong$` instead of something from Windows..
+
+With a `test-file4.md` consisting of 
+```
+# Title
+
+[a link!](links]
+```
 
 - show a screenshot of the code change difference from github
 - link to the test file for a failure-inducing input that prompted you to make that change
