@@ -19,14 +19,14 @@ With a `test-file2.md` consisting of
 ```
 # Title
 
-[a link!](Link.(com))
+[a link!](link.(com))
 ```
 
 We were expecting the output of "Link.(com)" but when running `test-file2.md` , an infinite loop occured.
 
 > Symptom: infinite loop : OutOfMemoryError
 ![Image](2fail.png)
->>Commit Message History
+>> [Commit Message History](https://github.com/lhvuong11/cse15L-lab-reports/blob/main/2fail.png)
 
 
 these should be stored as commits on someone's repository.
@@ -50,7 +50,7 @@ We were expecting the output of "links]" but when running `test-file3.md` , noth
 
 > Symptom: Not printing expected output
 ![Image](3fail.png)
->>Commit Message History
+>>[Commit Message History](https://github.com/lhvuong11/cse15L-lab-reports/blob/main/3fail.png)
 
 
 
@@ -73,23 +73,7 @@ We deliberately removed the closing parentheses to see if it was a fail-inducing
 
 > Symptom: StringIndexOutOfBounds Error
 ![Image](4fail.png)
->>Commit Message History
-
-- show a screenshot of the code change difference from github
-- link to the test file for a failure-inducing input that prompted you to make that change
-- show the symptom of that filure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-- write 2-3 sentences describing the relationship between the bug, the symptom, and the filure-inducing input
-
-
-## Code Change 3 : *StringIndexOutOfBoundsException*
-> Apologies, I switched over to using my Mac so you'll be seeing `lindas-MacBook-Pro:markdown-parse lindavuong$` instead of something from Windows..
-
-With a `test-file4.md` consisting of 
-```
-# Title
-
-[a link!](links]
-```
+>> [Commit Message History](https://github.com/lhvuong11/cse15L-lab-reports/blob/main/4fail.png)
 
 - show a screenshot of the code change difference from github
 - link to the test file for a failure-inducing input that prompted you to make that change
