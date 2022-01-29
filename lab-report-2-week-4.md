@@ -31,7 +31,7 @@ We were expecting the output of "link.(com)" but when running `test-file2.md` , 
 
 > Code Change Difference in GitHub
 ![Image](2&3.jpg) 
-`test-file2.md` and `test-file3.md` 's changes were committed at the same time. Next time, I'll be sure to commit them separately as it'll be easier to track.
+`test-file2.md` , `test-file3.md` , and `test-file4.md` 's changes were committed at the same time. Next time, I'll be sure to commit them separately as it'll be easier to track. I need to get used to committing to GitHub Desktop!
 
 The failure-inducing input contains another pair of parentheses inside the original outer pair of parentheses. The original `MarkdownParse.java` didn't take other pair of parentheses into consideration so it doesn't know with was the right `( )` to stop the index which resulted in an infinte loop as the symptom.
 
@@ -76,9 +76,14 @@ We deliberately removed the closing parentheses to see if it was a fail-inducing
 >> [Link to failure-inducing test-file](https://github.com/lhvuong11/markdown-parse/blob/main/test-file4.md)
 
 > Code Change Difference in GitHub
-![Image](new1.png)
+![Image](2&3.jpg)
 
 The failure-inducing input is missing the corresponding `)` parentheses, but we still want the link to be read. The pervious `MarkdownParse.java` code returned a *StringIndexOutOfBounds* when running `test-file4.md`. My thought process was to in a sense replace `)` with the closing bracket `]` in order to read the inner link.
+
+&nbsp;
+
+       --- This is the finished result! ---
+![Image](unknown.png)
 
 &nbsp;
 
