@@ -16,5 +16,5 @@ Enjoy this very nice, HD picture of `Inumaki Toga` from the manga/ anime `Jujust
   
   > Anywho links to my CSE15 LAB REPORTS: 
   >  1. [LAB REPORT 1 - TUTORIAL ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-1-week-2.html)
-  
+  > 2. [LAB REPORT 2 - DEBUGGING ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-2-week-4.html)
   

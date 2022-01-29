@@ -17,33 +17,31 @@ Since `MarkdownParse.java` reads whatever is between the ` ( , ) , [ , ] ` we de
 ## Code Change 1 : *An Infinite Loop*
 With a `test-file2.md` consisting of 
 ```
-# Title
-
 [a link!](link.(com))
 ```
 
-We were expecting the output of "Link.(com)" but when running `test-file2.md` , an infinite loop occured.
+We were expecting the output of "link.(com)" but when running `test-file2.md` , an infinite loop occured.
 
 > Symptom: infinite loop : OutOfMemoryError
 ![Image](2fail.png)
 >> [Commit Message History](https://github.com/lhvuong11/cse15L-lab-reports/blob/main/2fail.png)
+\
+>> [Link to failure-inducing test-file](https://github.com/lhvuong11/markdown-parse/blob/main/test-file2.md)
 
 
-these should be stored as commits on someone's repository.
+> Code Change Difference in GitHub
+![Image](2&3.jpg) 
+`test-file2.md` and `test-file3.md` 's changes were committed at the same time. Next time, I'll be sure to commit them separately as it'll be easier to track.
 
-- show a screenshot of the code change difference from github
-- link to the test file for a failure-inducing input that prompted you to make that change
-- show the symptom of that filure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-- write 2-3 sentences describing the relationship between the bug, the symptom, and the filure-inducing input
+The failure-inducing input contains another pair of parentheses inside the original outer pair of parentheses. The original `MarkdownParse.java` didn't take other pair of parentheses into consideration so it doesn't know with was the right `( )` to stop the index which resulted in an infinte loop as the symptom.
+
+&nbsp;
 
 
-
-## Code Change 2 : *Printing nothing when expecting output*
+## Code Change 2 : *Another Infinite Loop with different test-file*
 With a `test-file3.md` consisting of 
 ```
-# Title
-
-[a link!](links])
+[a link!][(testlink.com)]
 ```
 
 We were expecting the output of "links]" but when running `test-file3.md` , nothing printed in the terminal. No error, but also no output in general.
@@ -51,21 +49,21 @@ We were expecting the output of "links]" but when running `test-file3.md` , noth
 > Symptom: Not printing expected output
 ![Image](3fail.png)
 >>[Commit Message History](https://github.com/lhvuong11/cse15L-lab-reports/blob/main/3fail.png)
+\
+>> [Link to failure-inducing test-file](https://github.com/lhvuong11/markdown-parse/blob/main/test-file3.md)
 
 
+> Code Change Difference in GitHub
+![Image](2&3.jpg)
 
-- show a screenshot of the code change difference from github
-- link to the test file for a failure-inducing input that prompted you to make that change
-- show the symptom of that filure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-- write 2-3 sentences describing the relationship between the bug, the symptom, and the filure-inducing input
+The failure-inducing input has an extra pair of brackets on the outside of the parentheses. `MarkdownParse.java` is supposed to only read inside the parentheses and doesn't take another pair of brackets in consideration. My thought process was for MarkdownParse to ignore the extra pair and to still return the inner link.
 
+&nbsp;
 
 ## Code Change 3 : *StringIndexOutOfBoundsException*
 
 With a `test-file4.md` consisting of 
 ```
-# Title
-
 [a link!](links]
 ```
 
@@ -74,8 +72,21 @@ We deliberately removed the closing parentheses to see if it was a fail-inducing
 > Symptom: StringIndexOutOfBounds Error
 ![Image](4fail.png)
 >> [Commit Message History](https://github.com/lhvuong11/cse15L-lab-reports/blob/main/4fail.png)
+\
+>> [Link to failure-inducing test-file](https://github.com/lhvuong11/markdown-parse/blob/main/test-file4.md)
 
-- show a screenshot of the code change difference from github
-- link to the test file for a failure-inducing input that prompted you to make that change
-- show the symptom of that filure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-- write 2-3 sentences describing the relationship between the bug, the symptom, and the filure-inducing input
+> Code Change Difference in GitHub
+![Image](new1.png)
+
+The failure-inducing input is missing the corresponding `)` parentheses, but we still want the link to be read. The pervious `MarkdownParse.java` code returned a *StringIndexOutOfBounds* when running `test-file4.md`. My thought process was to in a sense replace `)` with the closing bracket `]` in order to read the inner link.
+
+&nbsp;
+
+Strangely enough (or not so strangely), I was able to fix the bugs my lab group and I came up with, but then the original `test-file.md` now returned a *StringIndexOutOfBounds* error.
+
+Do I need to fix this error since I fulfilled the lab's task of debugging the 3 errors? If yes, how do i go about revising this?
+
+--- 
+
+
+***THANKS FOR READING MY DEBUGGING LAB! STAY SAFE AND HAVE A GREAT REST OF YOUR DAY!!***
