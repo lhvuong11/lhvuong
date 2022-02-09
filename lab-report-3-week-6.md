@@ -37,8 +37,9 @@ By replacing `file.java` with `hello.java` and `cs15lwi22zz@ieng6.ucsd.edu` with
 > This is how my `list files` look like after `scp`-ing `hello.java`!
 ![Image](after.jpg)
 
+---
 
-
+***THANKS FOR READING MY LAB! STAY SAFE AND HAVE A GREAT REST OF YOUR DAY!!***
 
 
 
