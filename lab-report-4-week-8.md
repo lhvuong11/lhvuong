@@ -35,6 +35,10 @@ I checked to see which "links" are valid and the output should be what's conside
 
 ![Image](snip1.jpg)
 
+- Using the same tests and running the test in the **reviewed implementation**, we get the following
+
+![Image](ysnip1.jpg)
+
 &nbsp;
 
 ## Snippet 2:
@@ -57,6 +61,10 @@ Similarly: the links we want are syntax'd as follows
 - I turned `Snippet 2` into a test in `MarkdownParseTest.java` and when I run the test in **my implementation**, I get the following 
 
 ![Image](snip2.jpg)
+
+- Using the same tests and running the test in the **reviewed implementation**, we get the following
+
+![Image](ysnip2.jpg)
 
 
 &nbsp;
@@ -100,6 +108,10 @@ Similarly: the link we want are syntax'd as follows "https://ucsd-cse15l-w22.git
 - I turned `Snippet 2` into a test in `MarkdownParseTest.java` and when I run the test in **my implementation**, I get the following 
 
 ![Image](snip3.jpg)
+
+- Using the same tests and running the test in the **reviewed implementation**, we get the following
+
+![Image](ysnip3.jpg)
 
 &nbsp;
 
