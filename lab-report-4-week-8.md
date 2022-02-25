@@ -105,11 +105,14 @@ Similarly: the link we want are syntax'd as follows "https://ucsd-cse15l-w22.git
 
 ## My Implementation:
 
-- Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+- ***Snippet 1:*** 
+I think there's possibly a <10 line code change that would make my program work as my code in its current state is still not "correct" for the original `test-file.md`. After editing some lines (not really adding), I think by adding a conditional statement that either accepts or rejects backticks, the code should give us an expected output.
 
-- Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+- ***Snippet 2:*** 
+I think that there's also a possibility that my program would work by making a small change. In order to work for nest parentheses, I originally had a `openParen2` variable, but I could potentially just increment the `openParen` variable and use the same implementation for more nest parentheses, brackets, and escaped brackets.
 
-- Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+- ***Snippet 3:***  
+I don't think that a small code change would be enough for my program to work. The test cases I had prior didn't take into consideration of newlines and it would take some trial and error in order to fix such an error.
 
 ---
 
