@@ -9,9 +9,16 @@
 [Link to the one I reviewed: Team Patoo](https://github.com/IncogOwl/markdown-parse)
 
 ---
-## Group Choice Option 1:  *Streamlining `ssh` Configuration*
+## Snippet 1: 
 
-- Show your `.ssh/config` file, and how you edited it (with VScode, another program, etc)
+- Decide on what it should produce by either VScode previerw or the CommonMark demo site
+
+- Show the code in `MarkdownParseTest.java` for how you turned it into a test
+
+- For **my implementation** the corresponding output when running the tests
+
+(if passed) - say so
+(if failed) - show the specific part of JUnit output that shows failure
 
 > This was my `.ssh/config` file just following the directions from Week 5.
 I chose to edit it with VScode in order to be consistent since we've been using VScode in this class.
@@ -19,29 +26,47 @@ I chose to edit it with VScode in order to be consistent since we've been using 
 
 &nbsp;
 
-- Show the `ssh` command logging you into your account using just the alias you chose
+## Snippet 2:
 
-> I decided to change the `ieng6` host alias to my lab group's name `fire-salamander` :D I logged out of the server and tried `ssh`-ing back into the server using my alias and it works as long as the `HostName` stays as `ieng6.ucsd.edu`.
-![Image](fire_host.jpg)
+- Decide on what it should produce by either VScode previerw or the CommonMark demo site
 
+- Show the code in `MarkdownParseTest.java` for how you turned it into a test
+
+- For **my implementation** the corresponding output when running the tests
+
+(if passed) - say so
+(if failed) - show the specific part of JUnit output that shows failure
+
+> This was my `.ssh/config` file just following the directions from Week 5.
+I chose to edit it with VScode in order to be consistent since we've been using VScode in this class.
+![Image](host.jpg)
 
 &nbsp;
 
-- Show an `scp` command copying a file to your account using just the alias you chose.
+## Snippet 3:
 
-> This is how my `list files` looked like before `scp`-ing anything.
-![Image](before.jpg)
+- Decide on what it should produce by either VScode previerw or the CommonMark demo site
 
-I made a simple `hello.java` file with a `main` method printing out "Hello" and 
-following the syntax of the code below, I copied `hello.java` to my account using just the alias I chose by using the `scp` command.
+- Show the code in `MarkdownParseTest.java` for how you turned it into a test
 
-```
-scp file.java cs15lwi22zz@ieng6.ucsd.edu:~
-```
-By replacing `file.java` with `hello.java` and `cs15lwi22zz@ieng6.ucsd.edu` with `fire-salamander`, I'm able to successfully `scp` the file and the file appears in the account's `ls`.
+- For **my implementation** the corresponding output when running the tests
 
-> This is how my `list files` look like after `scp`-ing `hello.java`!
-![Image](after.jpg)
+(if passed) - say so
+(if failed) - show the specific part of JUnit output that shows failure
+
+> This was my `.ssh/config` file just following the directions from Week 5.
+I chose to edit it with VScode in order to be consistent since we've been using VScode in this class.
+![Image](host.jpg)
+
+&nbsp;
+
+## My Implementation:
+
+- Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+- Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+- Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 ---
 
