@@ -21,13 +21,12 @@ Enjoy this very nice, HD picture of `Inumaki Toga` from the manga/ anime `Jujust
   >  1. [LAB REPORT 1 - TUTORIAL ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-1-week-2.html)
   > 2. [LAB REPORT 2 - DEBUGGING ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-2-week-4.html)
   > 3. [LAB REPORT 3 - GROUP OPTION 1 ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-3-week-6.html)
-  
+  > 4. [LAB REPORT 4 - MINE + REVIEWED ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-4-week-8.html)
+
   &nbsp;
 
   ---
   ---
 
-  &nbsp;
-
-  Here's another nice (yet another) picture of one of my favorite Jujutsu Kaisen characters `Megumi Fushiguro` hehe.
+  Here's another nice picture of one of my favorite Jujutsu Kaisen characters   `Megumi Fushiguro` hehe.
   ![Image](megumi.jpg)
