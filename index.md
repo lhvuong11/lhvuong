@@ -22,6 +22,7 @@ Enjoy this very nice, HD picture of `Inumaki Toga` from the manga/ anime `Jujust
   > 2. [LAB REPORT 2 - DEBUGGING ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-2-week-4.html)
   > 3. [LAB REPORT 3 - GROUP OPTION 1 ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-3-week-6.html)
   > 4. [LAB REPORT 4 - MINE + REVIEWED ](https://lhvuong11.github.io/cse15L-lab-reports/lab-report-4-week-8.html)
+  > 5. [LAB REPORT 5 - COMMONMARK](https://lhvuong11github.io/cse15L-lab-reports/lab-report-5-week-10.html)
 
   &nbsp;
 
