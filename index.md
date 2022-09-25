@@ -1,18 +1,24 @@
 # **greetings everyone!**
 
-[ABOUT ME](https://lhvuong11.github.io/lhvuong/about-me)
+[ABOUT ME](https://lhvuong11.github.io/lhvuong/about-me)       |
+[MY LINKEDIN](https://www.linkedin.com/in/linda-vuong-3664821ba/) 
 
 Welcome to my (Linda Vuong's) GitHub website! 
 
-This website consists of my work as a student as well as blogs periodically. I'm glad you chose to stay and take your time cruising through the website! Times have been rough lately with new strains of COVID-19 and the recent cases of Monkeypox. I hope you're all healthy and doing well! ᕙ(⇀‸↼‶)ᕗ
-
-  **DISCLAIMER!!! I cannot promise there will be A5 Wagyu quality content on here, but enjoy what you can! ☆*:.｡.o(≧▽≦)o.｡.:*☆**
+This website consists of my work as a student as well as blogs periodically. I'm glad you chose to stay and take your time cruising through the website! Times have been rough lately with new strains of COVID-19 and the recent cases of Monkeypox. I hope you're all healthy and doing well!
   
   --- 
-  ![Image](https://i0.wp.com/pbs.twimg.com/media/E2aDn5KXIAU337Z.jpg)
+  ![Image](linkedin.jpg)
 
+This is a cover photo I designed for my LinkedIn header. It's extremely personalized as each symbol plays a role in who I am.
 
-This is `Inumaki Toga` from the manga/ anime `Jujustu Kaisen`. It is one of my favorite shows and if you enjoy action then I reccomend watching this! 
+I value collaboration as well as networking. 
+
+Being a woman in STEM, I aim to work and perform as well as my male counterparts to the point where noone will underestimate me due to my gender.
+
+I am creative and my cognitive gears are always on as I bring bright and new ideas to the table.
+
+I am very interested in the world of Tech and take great pleasure in learning about technology when I can.
 
   --- 
   ---
@@ -28,14 +34,7 @@ This is `Inumaki Toga` from the manga/ anime `Jujustu Kaisen`. It is one of my f
 
   &nbsp;
 
-  ---
-  ---
-
-  This is another one of my favorite Jujutsu Kaisen characters `Megumi Fushiguro`.
-
-  ![Image](megumi.jpg)
-
 --- 
-
+---
 
 ***Thank you for taking time to look through my website. Stay safe and take care!***
