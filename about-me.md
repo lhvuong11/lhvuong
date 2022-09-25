@@ -11,7 +11,7 @@ I am majoring in Mathematics and Computer Science and am aiming for a job in tec
 ## Experience at UCSD
 I am a full time student and have taken the following classes:
 - `Software Tools & Techniques Lab`
-> Developed websites using GitHub/ GitHub Desktop
+> Developed websites using GitHub/ GitHub Desktop/ GitHub Pages.
 
 > Edited pages from terminal using Vim
 - `Data Structures and OO Design in Java`

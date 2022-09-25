@@ -4,15 +4,15 @@
 
 Welcome to my (Linda Vuong's) GitHub website! 
 
-This website consists of my work as a student and well as blogs I feel like posting. I'm glad you chose to stay and take your time cruising through the website! Times have been rough lately with new strains of COVID-19 and the recent cases of Monkeypox. I hope you're all healthy and doing well! ᕙ(⇀‸↼‶)ᕗ
+This website consists of my work as a student as well as blogs periodically. I'm glad you chose to stay and take your time cruising through the website! Times have been rough lately with new strains of COVID-19 and the recent cases of Monkeypox. I hope you're all healthy and doing well! ᕙ(⇀‸↼‶)ᕗ
 
-  **DISCLAIMER!!! I cannot promise there will be A5 Wagyu quality content on here. Continue at your own risk!! ☆*:.｡.o(≧▽≦)o.｡.:*☆**
+  **DISCLAIMER!!! I cannot promise there will be A5 Wagyu quality content on here, but enjoy what you can! ☆*:.｡.o(≧▽≦)o.｡.:*☆**
   
   --- 
   ![Image](https://i0.wp.com/pbs.twimg.com/media/E2aDn5KXIAU337Z.jpg)
 
 
-Enjoy this very nice, HD picture of `Inumaki Toga` from the manga/ anime `Jujustu Kaisen`. It is one of my favorite shows and if you enjoy action then I reccomend watching this! 
+This is `Inumaki Toga` from the manga/ anime `Jujustu Kaisen`. It is one of my favorite shows and if you enjoy action then I reccomend watching this! 
 
   --- 
   ---
@@ -31,6 +31,11 @@ Enjoy this very nice, HD picture of `Inumaki Toga` from the manga/ anime `Jujust
   ---
   ---
 
-  Here's another nice picture of one of my favorite Jujutsu Kaisen characters   `Megumi Fushiguro`.
+  This is another one of my favorite Jujutsu Kaisen characters `Megumi Fushiguro`.
 
   ![Image](megumi.jpg)
+
+--- 
+
+
+***Thank you for taking time to look through my website. Stay safe and take care!***
