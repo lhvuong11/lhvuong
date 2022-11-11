@@ -5,7 +5,7 @@
 
 Welcome to my (Linda Vuong's) GitHub website! 
 
-This website consists of my work as a student. I'm glad you chose to stay and take your time cruising through the website! Times have been rough lately with new strains of COVID-19 and the recent cases of Monkeypox. I hope you're all healthy and doing well!
+This website consists of my work as a student. I'm glad you chose to stay and take your time cruising through the website! I hope you're all healthy and doing well as times have been rough lately with new variants of COVID-19 and the recent tradegy in Itaewon.
   
   --- 
   ![Image](linkedin.jpg)
