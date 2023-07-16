@@ -26,11 +26,11 @@ I am very interested in the world of Tech and take great pleasure in learning ab
   &nbsp;
   
   > Here are some links to my past CSE15 (Software Tools and Techniques) lab reports: 
-  >  1. [LAB REPORT 1 - TUTORIAL ](https://lhvuong11.github.io/lhvuong/lab-report-1-week-2.html)
-  > 2. [LAB REPORT 2 - DEBUGGING ](https://lhvuong11.github.io/lhvuong/lab-report-2-week-4.html)
-  > 3. [LAB REPORT 3 - GROUP OPTION 1 ](https://lhvuong11.github.io/lhvuong/lab-report-3-week-6.html)
-  > 4. [LAB REPORT 4 - MINE + REVIEWED ](https://lhvuong11.github.io/lhvuong/lab-report-4-week-8.html)
-  > 5. [LAB REPORT 5 - COMMONMARK](https://lhvuong11.github.io/lhvuong/lab-report-5-week-10.html)
+  >  1. [LAB REPORT 1 - TUTORIAL ](https://lhvuong11.github.io/software_techniques_lab/lab-report-1-week-2.html)
+  > 2. [LAB REPORT 2 - DEBUGGING ](https://lhvuong11.github.io/software_techniques_lab/lab-report-2-week-4.html)
+  > 3. [LAB REPORT 3 - GROUP OPTION 1 ](https://lhvuong11.github.io/software_techniques_lab/lab-report-3-week-6.html)
+  > 4. [LAB REPORT 4 - MINE + REVIEWED ](https://lhvuong11.github.io/software_techniques_lab/lab-report-4-week-8.html)
+  > 5. [LAB REPORT 5 - COMMONMARK](https://lhvuong11.github.io/software_techniques_lab/lab-report-5-week-10.html)
 
   &nbsp;
 
